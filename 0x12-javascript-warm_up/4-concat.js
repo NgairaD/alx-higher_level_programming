@@ -1,6 +1,2 @@
-const arguments = process.argv;
-
-let Arg1 = 'c';
-let Arg2 = 'fun';
-
-console.log(Arg1 + ' is '  + Arg2);
+#!/usr/bin/node
+console.log(process.argv[2] + ' is ' + process.argv[3]);
